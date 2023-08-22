@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/08/19||11:08:02" using="Simscape Multibody Link Version 4.8" from="SolidWorks 26.5.0"/>
+<ModelUnits mass="kilogram" length="centimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem4 with mte gear &amp; lock" uid="Assem4 with mte gear &amp; lock" version="440">
+<AssemblyFile name="Assem4 with mte gear &amp; lock.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="mile3-1" uid="mile3-1" entityUid="mile3*:*Default">
+<Transform>
+<Rotation>-0.8292095306556182 -0.45808179124030152 -0.32026961579888646 0.4044746712279465 -0.8872451266181085 0.22180244729817788 -0.38576131818124798 0.054379755667834234 0.9209945969269161</Rotation>
+<Translation>0.090805808207242822 0.49621206807827145 -0.14840208655792575</Translation>
+</Transform>
+</Instance>
+<Instance name="mile2-2" uid="mile2-2" entityUid="mile2*:*Default">
+<Transform>
+<Rotation>-0.00077482639137349562 -0.11788415501384447 -0.99302705181718764 0.9999996955917233 -1.6826744325818384e-015 -0.00078026691628575392 9.1981106109933271e-005 -0.99302735410293297 0.11788411912893199</Rotation>
+<Translation>0.14983244160290513 0.51395697061063439 0.2705608891142593</Translation>
+</Transform>
+</Instance>
+<Instance name="spur gear_iso-2" uid="spur gear_iso-2" entityUid="spur gear_iso*:*ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L30.0N">
+<Transform>
+<Rotation>3.7922719234577559e-016 -0.45058401736362585 0.89273402718640449 -1 7.2212559385831836e-016 7.8926692834620445e-016 -1.0002971528859924e-015 -0.89273402718640449 -0.45058401736362585</Rotation>
+<Translation>0.064862437226643962 0.45595697061063423 0.37774912367285685</Translation>
+</Transform>
+</Instance>
+<Instance name="mile1-1" uid="mile1-1" entityUid="mile1*:*Default">
+<Transform>
+<Rotation>-0.35518113559058856 1.5729265751478294e-016 0.9347974972798011 -1.4484120345850456e-015 1 -7.1859551476816788e-016 -0.9347974972798011 -1.6092035159257073e-015 -0.35518113559058856</Rotation>
+<Translation>0.15219012470318269 0.41095697061063463 0.29042143619631822</Translation>
+</Transform>
+</Instance>
+<Instance name="conector1-1" uid="conector1-1" entityUid="conector1*:*Default">
+<Transform>
+<Rotation>0.99302735410293308 4.3798521504111915e-016 0.11788415501384358 -6.4354199258200154e-016 1 1.7056540557389099e-015 -0.11788415501384358 -1.769624537996802e-015 0.99302735410293308</Rotation>
+<Translation>0.15219012470318258 0.4889569706106342 0.29042143619631805</Translation>
+</Transform>
+</Instance>
+<Instance name="conector1-2" uid="conector1-2" entityUid="conector1*:*Default">
+<Transform>
+<Rotation>0.88105868052630265 -0.11788415501384431 0.45808179124030102 -0.46129826066485002 -1.6633877193107928e-015 0.88724512661810895 -0.1045921420415263 -0.99302735410293308 -0.054379755667833381</Rotation>
+<Translation>0.10291454790739521 0.5139569706106335 -0.1246639978187092</Translation>
+</Transform>
+</Instance>
+<Instance name="body-1" uid="body-1" grounded="true" entityUid="body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.15219012470318255 0.030956970610634682 0.29042143619631827</Translation>
+</Transform>
+</Instance>
+<Instance name="spur gear_iso-1" uid="spur gear_iso-1" entityUid="spur gear_iso*:*ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L40.0N">
+<Transform>
+<Rotation>9.8871471937727082e-016 0.95299928733830741 0.30297253725821205 -1 7.1880946903729203e-016 1.0023674436006079e-015 7.3747593076304459e-016 -0.30297253725821205 0.95299928733830741</Rotation>
+<Translation>0.15219012470318269 0.45595697061063467 0.29042143619631849</Translation>
+</Transform>
+</Instance>
+<Instance name="mile_motor-1" uid="mile_motor-1" entityUid="mile_motor*:*Default">
+<Transform>
+<Rotation>0.93569996446611015 0 0.35279679207458803 0 1 -4.6913037765935505e-016 -0.35279679207458803 4.6502723704023558e-016 0.93569996446611015</Rotation>
+<Translation>0.064862437226643796 0.39595697061063462 0.37774912367285696</Translation>
+</Transform>
+</Instance>
+<Instance name="DCMOTORRR-1" uid="DCMOTORRR-1" entityUid="DCMOTORRR*:*3">
+<Transform>
+<Rotation>-0.99998332950082691 -0.0057741423987041404 3.7197797513999382e-016 3.7462610687961651e-016 -4.5753747535056899e-016 0.99999999999999989 -0.0057741423987041404 0.99998332950082691 4.5969299245985954e-016</Rotation>
+<Translation>0.064862437226643893 0.35295697061063463 0.3777491236728569</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0.38 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+<Position>0 0.080000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+<Position>0 0.080000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+<Position>0 0.080000000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000078 -0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0.40000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000078 -0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0.40000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000078 -0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0.40000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>conector1-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0.40000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>conector1-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile2-2</Uid>
+</InstancePath>
+<Position>0 0.40000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>conector1-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>conector1-2</Uid>
+</InstancePath>
+<Position>0 0.024999999999999994 -0.020000000000000018</Position>
+<Axis>-1.0408340855860843e-016 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile3-1</Uid>
+</InstancePath>
+<Position>0 0.49999999999999994 0</Position>
+<Axis>-1.4224732503009818e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>conector1-2</Uid>
+</InstancePath>
+<Position>0 0.024999999999999994 -0.020000000000000018</Position>
+<Axis>-1.0408340855860843e-016 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.4224732503009818e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.087327687476538629 0.32899999999999996 0.087327687476538574</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_iso-2</Uid>
+</InstancePath>
+<Position>0.050000050799999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.17999999999999999 0.37999999999999995 -0.20000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_iso-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile_motor-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.17999999999999999 0.37999999999999995 -0.20000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<UnknownConstraint name="Lock1">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>conector1-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_iso-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_iso-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mile_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DCMOTORRR-1</Uid>
+</InstancePath>
+<Position>0 0 0.042999999999999983</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile_motor-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DCMOTORRR-1</Uid>
+</InstancePath>
+<Position>0 0 0.042999999999999983</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>mile1-1</Uid>
+</InstancePath>
+<Position>0 0.080000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_iso-1</Uid>
+</InstancePath>
+<Position>0.050000050799999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="DCMOTORRR" uid="DCMOTORRR*:*3" version="430">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="DCMOTORRR.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3621519999981277</Mass>
+<CenterOfMass>-2.0584547036242633e-007 1.6432485463436135e-005 -0.057876216565884701</CenterOfMass>
+<Inertia>0.032349981597123642 0.032340106298474947 0.022858085174577738 1.1581943361306802e-005 -1.2267857555240834e-008 3.5814295226453911e-008</Inertia>
+</MassProperties>
+<GeometryFile name="DCMOTORRR_3_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89411764705882346" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89411764705882346" a="1"/>
+<Specular r="0.0099999997764825821" g="0.0094901958663089602" b="0.0089411762707373669" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>1</Shininess>
+</VisualProperties>
+</Part>
+<Part name="body" uid="body*:*Default" version="260">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.8096858045614326</Mass>
+<CenterOfMass>0.00018129560333224849 0.19890431324345759 -0.00018129560333196343</CenterOfMass>
+<Inertia>0.33601818951838813 0.20286049535135395 0.33601818951838824 0.000235920256045728 -0.00010803562364434735 -0.0002359202560456305</Inertia>
+</MassProperties>
+<GeometryFile name="body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="conector1" uid="conector1*:*Default" version="192">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="conector1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10125150243983548</Mass>
+<CenterOfMass>0 0.023729070268024555 -0.000470417260461458</CenterOfMass>
+<Inertia>3.5512918482109421e-005 3.7749355831074154e-005 3.8976692035673078e-005 2.6080519101832313e-006 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="conector1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mile1" uid="mile1*:*Default" version="171">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="mile1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1005309649148734</Mass>
+<CenterOfMass>0 0.039999999999999994 0</CenterOfMass>
+<Inertia>6.3669611112753151e-005 2.010619298297468e-005 6.3669611112753151e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mile1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mile2" uid="mile2*:*Default" version="125">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="mile2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.50265482457436694</Mass>
+<CenterOfMass>0 0.19999999999999998 0</CenterOfMass>
+<Inertia>0.0067523298101156625 0.00010053096491487341 0.0067523298101156625 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mile2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mile3" uid="mile3*:*Default" version="123">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="mile3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.6283185307179584</Mass>
+<CenterOfMass>0 0.25 0</CenterOfMass>
+<Inertia>0.013152801243029266 0.00012566370614359163 0.013152801243029266 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mile3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mile_motor" uid="mile_motor*:*Default" version="123">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="mile_motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.042411500823462192</Mass>
+<CenterOfMass>0 0.029999999999999999 0</CenterOfMass>
+<Inertia>1.5109097168358414e-005 4.7712938426394987e-006 1.5109097168358414e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mile_motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spur gear_iso" uid="spur gear_iso*:*ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L30.0N" version="3339">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spur gear_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20425360830280503</Mass>
+<CenterOfMass>0.01 0 0</CenterOfMass>
+<Inertia>0.00039122543767896082 0.00020242117244957409 0.00020242117244957371 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spur gear_iso_ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L30.0N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spur gear_iso" uid="spur gear_iso*:*ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L40.0N" version="2296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spur gear_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1932580340152408</Mass>
+<CenterOfMass>0.01 0 0</CenterOfMass>
+<Inertia>0.00038778932071409703 0.00020033659482422342 0.00020033659482422299 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spur gear_iso_ISO - Spur gear 6M 20T 20PA 20FW ---S20A75H50L40.0N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
