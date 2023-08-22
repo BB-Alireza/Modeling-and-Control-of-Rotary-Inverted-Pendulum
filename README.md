@@ -11,4 +11,4 @@ The servo motor rotates the horizontal arm via a gearbox. At the end of the hori
 This project delves into the intricate realm of control engineering, offering insights into the application of diverse control strategies to tackle the Avong inverted pendulum challenge. Through the exploration of both traditional and modern control techniques, the study seeks to enhance the stability and control of the pendulum system in its unstable equilibrium state.
 
 
-![Alt text]([image link](https://drive.google.com/file/d/1I777Rj_ESSHAXi4mBmdeU49Uw2p07p9f/view?usp=sharing)https://drive.google.com/file/d/1I777Rj_ESSHAXi4mBmdeU49Uw2p07p9f/view?usp=sharing)
+![RotaryInvertedPendulum](https://github.com/BB-Alireza/Modeling-and-Control-of-Rotary-Inverted-Pendulum/assets/94249833/109bff49-eb63-4bd8-aae6-9da72a7b27f2)
