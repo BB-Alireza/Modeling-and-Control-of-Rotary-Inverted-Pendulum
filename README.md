@@ -1,5 +1,9 @@
 # Rotary Single Inverted Pendulum; Control Study
 
+## By: [Alireza Ansari](https://www.linkedin.com/in/alireza-ansaree/)
+
+## Supervisor: [Dr.Mahdi Aliyari Shoorehdeli](http://apac.ee.kntu.ac.ir/members/faculty/aliyari/)
+
 ## Introduction
 
 The Rotary inverted pendulum problem stands as both an intriguing and fundamental challenge within the field of control engineering. This research endeavors to explore various control strategies to manage parameters of this system, such as the pendulum angle, by employing diverse control methods. The considered control methods encompass both industry-standard techniques like Proportional-Integral-Derivative (PID) control and classical methods based on transformation functions, as well as modern control approaches including Full-State Feedback (FSF) and optimal techniques like Linear Quadratic Regulator (LQR), which strike a balance between control signal energy and error energy.
